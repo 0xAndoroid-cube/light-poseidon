@@ -8,6 +8,7 @@ readme = "../README.md"
 keywords = ["cryptography", "hash", "poseidon", "zero-knowledge", "zkSNARK"]
 license = "Apache-2.0"
 edition = "2021"
+resolver = "2"
 
 [dependencies]
 ark-bn254 = "0.4.0"
@@ -19,7 +20,3 @@ thiserror = "1.0"
 criterion = "0.5"
 rand = "0.8"
 hex = "0.4.3"
-
-[[bench]]
-name = "bn254_x5"
-harness = false
